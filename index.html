@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>banana speak</title>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Minionese</title>
+    
     <style>
-        textarea {
-            width: 80%;
-            height: 10vh;
-            display: block;
-            margin: 1rem;
-            padding:1rem;
-        }
+   
 
     </style>
    
    
 </head>
 <body> 
-    <h1>Talk Banana</h1>
-    <textarea id="txt-input" placeholder="Put your sentence in English here and we will convert it into Banana"></textarea>
+    <h1 id="heading">Talk Banana</h1>
+    <textarea id="txt-input" placeholder="Please type the text to convert it into Minionese"></textarea>
     <button id="btn-translate">Translate</button>
+    <div class="output" style="font-size:larger;">Here's your output</div>
+    <div id="output"></div>
     <script src="app.js" type="text/javascript"></script>
+
+
+
+    <footer class="footer ">
+        ABOUT:<br>
+        <p>Most people refer to Minionese as gibberish and nonsense, nothing like a language, just some silly phrases, designed to sound funny.Even the language is gibberish and sounds alien; you can identify words from languages over the world like English, French, Spanish, Italian, Japanese, Korean, Hindi Indonesian, and may more, if you listen to Minionese attentively. This app will help you to know Minionese better.</p>
+            
+    </footer>
+
+
 </body>
 </html>

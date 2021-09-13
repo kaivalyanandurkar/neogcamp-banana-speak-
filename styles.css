@@ -1,0 +1,105 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Squada+One&display=swap" rel="stylesheet">
+
+:root {
+    --primary-color: #2563EB;
+    --grey-color: #FFFBEB;
+    --brown-color: #991B1B;
+    --black-color: #6B7280;
+    --yellow-color: #FCD34D;
+}
+
+body {
+    font-family: 'Marck Script', cursive;
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url('image/minion3.jpg');
+    background-size: cover;
+}
+
+#heading {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 5rem;
+    color: #F59E0B;
+}
+
+#txt-input {
+    margin: auto;
+    display: block;
+    padding: 0.5rem;
+    width: 80%;
+    height: 15vh;
+    font-family: 'Marck Script', cursive;
+    font-size: 2rem;
+    border-width: 1rem;
+    border-color: #9CA3AF;
+    border-radius: 1rem;
+    background-color: var(--grey-color);
+    
+}
+
+#btn-translate {
+    text-align: center;
+
+    
+   
+}
+
+button {
+    font-family: 'Marck Script', cursive;
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    color: #F59E0B;
+    background-color: black;
+}
+
+.output {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    margin: 1rem auto;
+    padding: 1rem;
+    font-size: 5rem;
+
+    
+    
+    
+}
+.footer {
+
+    
+    padding: 1rem;
+    font-family: 'Marck Script', cursive;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+#output {
+    border: 3px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    width: 80%;
+    display: block;
+    margin: auto;
+display: block;
+padding: 0.5rem;
+width: 80%;
+height: 15vh;
+font-family: 'Marck Script', cursive;
+font-size: 2rem;
+border-width: 1rem;
+border-color:#9CA3AF
+border-radius: 1rem;
+background-color: var(--grey-color);
+opacity: 0.75;
+
+}
